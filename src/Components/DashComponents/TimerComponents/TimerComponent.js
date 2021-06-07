@@ -148,7 +148,7 @@ export default function TimerComponent(props){
                  </div>    
                  :
                  <div>
-                     <p className="text-center " style={{position:"relative",top:"30px"}}>{fastGoal} <span className="edit"><i class="fa fa-pencil-square-o" onClick={toggle} aria-hidden="true"></i> </span></p> 
+                     <p className="text-center f4" style={{position:"relative",top:"30px"}}>{fastGoal} <span className="edit"><i class="fa fa-pencil-square-o" onClick={toggle} aria-hidden="true"></i> </span></p> 
                     <div style={{position:"relative",top:"-80px"}}>
                      <TimeCounter
                         startTime={startTime}
@@ -173,12 +173,12 @@ export default function TimerComponent(props){
                     <div style={{position:"relative",top:"-100px"}}> 
                     <div style={{marginTop:"10%"}}>   
                     <div className="date-heading d-flex justify-content-evenly ">
-                         <span>STARTED</span>
-                         <span>FAST ENDING</span>
+                         <span className="f4">STARTED</span>
+                         <span className="f4">FAST ENDING</span>
                     </div>
                     <div className="d-flex justify-content-evenly ">
-                         <span>{tempStart[0]}/{tempStart[1]+1}/{tempStart[2]} {tempStart[3]}:{tempStart[4]} <i class="fa fa-pencil-square-o edit1" onClick={toggle} aria-hidden="true"></i> </span>
-                         <span>{tempEnd[0]}/{tempEnd[1]+1}/{tempEnd[2]} {tempEnd[3]}:{tempEnd[4]} </span>
+                         <span className="f4">{tempStart[0]}/{tempStart[1]+1}/{tempStart[2]} {tempStart[3]}:{tempStart[4]} <i class="fa fa-pencil-square-o edit1" onClick={toggle} aria-hidden="true"></i> </span>
+                         <span className="f4">{tempEnd[0]}/{tempEnd[1]+1}/{tempEnd[2]} {tempEnd[3]}:{tempEnd[4]} </span>
                     </div>
                     </div>
                       
