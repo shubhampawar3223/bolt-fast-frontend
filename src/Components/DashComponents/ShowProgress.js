@@ -68,10 +68,10 @@ export default function ShowProgress(props){
            <p className="f2" style={{position:"relative",bottom:"20px",left:"50px"}}>Average: {props.currentStats==null? 0:props.currentStats.avg}h</p>
            </div>    
           <div useRef={mainRef} className="offset-1 col-10 row mainComponent" style={{marginTop:"3rem"}}>
-          <span style={{position:"absolute",left:"-40px",bottom:"230px"}}>20</span>
-          <span style={{position:"absolute",left:"-40px",bottom:"170px"}}>15</span>
-          <span style={{position:"absolute",left:"-40px",bottom:"110px"}}>10</span>
-          <span style={{position:"absolute",left:"-30px",bottom:"50px"}}>5</span>
+          <span style={{position:"absolute",left:"-40px",bottom:"230px",fontSize:"10px",color:"#A3A3A3"}}>20</span>
+          <span style={{position:"absolute",left:"-40px",bottom:"170px",fontSize:"10px",color:"#A3A3A3"}}>15</span>
+          <span style={{position:"absolute",left:"-40px",bottom:"110px",fontSize:"10px",color:"#A3A3A3"}}>10</span>
+          <span style={{position:"absolute",left:"-30px",bottom:"50px",fontSize:"10px",color:"#A3A3A3"}}>5</span>
                {
                    
                  arr.map((e,i)=>{
@@ -87,7 +87,7 @@ export default function ShowProgress(props){
                         <>   
                     <div className="col   d-flex justify-content-center" style={{position:"relative",borderLeft:"1px solid #F0F0F0"}}>
                         <span style={p}></span> 
-                        <span style={{position:"absolute",bottom:"-23px"}}>{( +props.sessions[i].tempStart[0])}/{+props.sessions[i].tempStart[1]}</span>
+                        <span style={{position:"absolute",bottom:"-23px",fontSize:"10px",color:"#A3A3A3"}}>{( +props.sessions[i].tempStart[0])}/{+props.sessions[i].tempStart[1]}</span>
                     </div>
                     </>
                     )
@@ -100,7 +100,7 @@ export default function ShowProgress(props){
                          <>
                         <div className="col   d-flex justify-content-center" style={{position:"relative",borderLeft:"1px solid #F0F0F0"}}>
                         <span style={p}></span> 
-                        <span style={{position:"absolute",bottom:"-23px"}}>{( +props.sessions[i].tempStart[0])}/{+props.sessions[i].tempStart[1]}</span> 
+                        <span style={{position:"absolute",bottom:"-23px",fontSize:"10px",color:"#A3A3A3"}}>{( +props.sessions[i].tempStart[0])}/{+props.sessions[i].tempStart[1]}</span> 
                        </div>
                          </>
                          )
