@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.mainComponent{
+    height:240px;
+    position:relative;
+    top:-40px;
+}
+
+.dateName{
+   position:absolute; 
+   bottom:-20px;  
+}
+
+.f1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #A3A3A3;
+}
+
+.f2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+}
+
+/* .topContent{
+    position:absolute;
+    top:-5px;
+} */

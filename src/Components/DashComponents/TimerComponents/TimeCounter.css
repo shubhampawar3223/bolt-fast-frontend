@@ -1,0 +1,21 @@
+.main{
+    
+    position:relative;
+    margin-top:35%;
+}
+
+.timer{
+      font-size:  1.4rem;
+      font-weight:500;
+      color: white;
+}
+
+.modalButton{
+    display:grid;
+    place-items: center;
+}
+
+.timingElements{
+   position :absolute;
+   top:50px; 
+}

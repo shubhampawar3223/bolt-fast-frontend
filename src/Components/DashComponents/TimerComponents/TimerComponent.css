@@ -1,0 +1,31 @@
+
+.timerc{
+   position:relative;  
+   height:360px;
+   width:360px; 
+   border-radius: 32px;
+   background-color:#4A49BE;
+}
+
+.edit{
+    padding:0.5%;
+}
+
+.edit:active{
+     background-color: rgb(152, 132, 207);
+}
+
+.edit1:active{
+    background-color: rgb(152, 132, 207);
+}
+
+.dates{
+    position: absolute;
+    bottom:5%;
+}
+
+
+.date-heading{
+    font-size:12px;
+    margin-top: 10%;
+}

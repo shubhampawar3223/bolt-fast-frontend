@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Source+Sans+Pro&display=swap');
+
+.head1{
+    font-size:2.5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.inp1{
+    font-size:1.3rem;   
+}
+
+.bottom1{
+    font-size:1.2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.img1{
+    margin-top: 6%;   
+    height:40vh; 
+}
+
+.img2{
+    height:50vh;
+}

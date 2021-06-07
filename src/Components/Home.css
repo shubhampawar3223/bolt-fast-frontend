@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
+
+.hTitle{
+    font-family: 'Lato', sans-serif;
+    font-size:3rem;
+    font-weight:bolder;
+    margin-top: 5%;
+}
+
+.hTitle2{
+    font-family: 'Lato', sans-serif;
+    font-size:1.8rem;
+    font-weight:bold;
+    margin-top: 2%;
+}
+
+.imgn{
+    height:70vh;
+}
+
+.title{
+    color:#4A49BE;
+    font-style: italic;
+}
